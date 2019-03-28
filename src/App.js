@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HelloMsg from './HelloMsg'
+import Person from './person'
+import Timer from './timer'
+import Todo from './Todo'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+       {/* <HelloMsg name="Swathi" email="swathi@gmail.com"/>
+       <Timer/>
+       <HelloMsg name="Divya" email="divya@gmail.com"/>
+       <HelloMsg name="Bhuvana" email="bhuvana@gmail.com"/>
+       <HelloMsg name="Krishna" email="krishna@gmail.com"/>  */}
+
+       <Todo/>
       </div>
     );
   }
